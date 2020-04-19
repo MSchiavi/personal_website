@@ -5,24 +5,47 @@ import {Link, useLocation} from 'react-router-dom';
 function Nav() {
     const linkStyle = {
         color: 'black',padding:'30px',textDecoration:'none'
-    }
+    };
+    const navStyleEducation = {
+        marginTop: '160%', marginLeft: '-50%'
+    };
+    const navStyleLiterature = {
+        
+    };
     const isHome = useLocation().pathname === '/';
+    const isEducation = useLocation().pathname ==='/education';
+    const isLiterature = useLocation().pathname ==='/literature'
   return (
-      <nav>
+      <nav >
           <ul className='nav-Links'>
-            {!isHome &&
+            {!isHome && !isEducation && !isLiterature  &&
                 <Link style = {linkStyle} to='/'>
-                    <li>Home</li>
+                    <li className="myLi">Home</li>
                 </Link>
             }
-            {isHome && 
-                <Link style={linkStyle} to='/about'>
-                    <li>About</li>
+            {isEducation && 
+                <Link style = {{...linkStyle,...navStyleEducation}} to='/'>
+                    <li className="myLi"> Back Home</li>
+                </Link>
+            }
+            {isLiterature && 
+                <Link style = {{...linkStyle,...navStyleLiterature}} to='/'>
+                    <li className="myLi"> Back Home</li>
                 </Link>
             }
             {isHome &&
-                <Link style={linkStyle}  to ='/Literature'>
-                    <li>Literature</li>
+                <Link style={linkStyle}  to ='/education'>
+                    <li className="myLi">Education</li>
+                </Link>
+            }
+            {isHome &&
+                <Link style={linkStyle}  to ='/literature'>
+                    <li className="myLi">Literature</li>
+                </Link>
+            }
+            {isHome && 
+                <Link style={linkStyle} to='/projects'>
+                    <li className="myLi">Projects</li>
                 </Link>
             }
           </ul>

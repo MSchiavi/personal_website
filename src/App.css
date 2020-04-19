@@ -6,7 +6,7 @@
 nav{
   background:white;
   position: absolute;
-  margin-left: 36%;
+  margin-left: 25%;
   margin-top: 25%;
   background: transparent;
 }
@@ -15,12 +15,8 @@ nav{
   list-style: none;
   text-decoration: none;
 }
-/* }:hover {
-  color: grey;
-  text-decoration: underline
-} */
 
-li:hover{
+.myLi:hover{
   color:grey;
   text-decoration: underline
 }
