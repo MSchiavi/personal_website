@@ -1,5 +1,5 @@
 import React from 'react';
-import Nav from './Nav';
+import Menu from './Menu';
 import About from './About';
 import Literature from './Literature';
 import Home from './Home';
@@ -12,7 +12,6 @@ function App() {
   return (
     <Router>
     <div className = "App">
-      <Nav />
       <Switch>
       <Route path ="/" exact component={Home}/>
       <Route path ="/about" component={About}/>
@@ -20,6 +19,7 @@ function App() {
       <Route path ="/projects" component={Projects} />
       <Route path ="/education" component={Education} />
       </Switch>
+      <Menu />
     </div>
     </Router>
   );
