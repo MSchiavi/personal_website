@@ -18,6 +18,7 @@ function Home() {
         You can find my Resume <a href="https://github.com/MSchiavi/resume/raw/master/Matthew_Schiavi_Resume.pdf">here</a>.
     </p>
   </div>
+  
   );
 }
 
