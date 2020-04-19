@@ -23,6 +23,7 @@ function Menu() {
           {!isHome && <Nav.Link href="/">Home</Nav.Link>}
           {!isEducation && !isLiterature && <Nav.Link href="/education">Education</Nav.Link>}
           {!isLiterature && !isEducation && <Nav.Link href="/literature">Literature</Nav.Link>}
+          {isHome && <Nav.Link href="https://github.com/MSchiavi">Github</Nav.Link>}
         </Nav>
       </Navbar>
     </Container>
