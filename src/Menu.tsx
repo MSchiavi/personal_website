@@ -18,7 +18,6 @@ function Menu() {
     const isLiterature = useLocation().pathname ==='/literature'
   return (
     <Container>
-      
       <Navbar sticky="bottom" bg="white" variant="light">
         <Nav className="mr-auto">
           {!isHome && <Nav.Link href="/">Home</Nav.Link>}
