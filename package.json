@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@react-pdf/renderer": "^1.6.8",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -11,9 +12,11 @@
     "@types/react": "^16.9.0",
     "@types/react-bootstrap": "^1.0.0",
     "@types/react-dom": "^16.9.0",
+    "@types/react-pdf": "^4.0.3",
     "@types/react-router-dom": "^5.1.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-pdf": "^4.1.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "^3.4.1",
     "typescript": "~3.7.2"

@@ -7,10 +7,10 @@ function Nav() {
         color: 'black',padding:'30px',textDecoration:'none'
     };
     const navStyleEducation = {
-        marginTop: '160%', marginLeft: '-50%'
+        marginTop: '160%', marginLeft: '-50%',fontSize: '20px'
     };
     const navStyleLiterature = {
-        
+        marginTop: '10%', marginLeft: '-50%',fontSize: '20px'
     };
     const isHome = useLocation().pathname === '/';
     const isEducation = useLocation().pathname ==='/education';
@@ -43,11 +43,11 @@ function Nav() {
                     <li className="myLi">Literature</li>
                 </Link>
             }
-            {isHome && 
+            {/* {isHome && 
                 <Link style={linkStyle} to='/projects'>
                     <li className="myLi">Projects</li>
                 </Link>
-            }
+            } */}
           </ul>
       </nav>
   );
