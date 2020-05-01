@@ -18,12 +18,12 @@ function Menu() {
     const isLiterature = useLocation().pathname ==='/literature'
   return (
     <Container>
-      <Navbar sticky="bottom" bg="white" variant="light">
+      <Navbar sticky="bottom" variant="light">
         <Nav className="mr-auto">
-          {!isHome && <Nav.Link href="/">Home</Nav.Link>}
-          {!isEducation && !isLiterature && <Nav.Link href="/education">Education</Nav.Link>}
-          {!isLiterature && !isEducation && <Nav.Link href="/literature">Literature</Nav.Link>}
-          {isHome && <Nav.Link href="https://github.com/MSchiavi">Github</Nav.Link>}
+          {!isHome && <Nav.Link href="/"><b>Home</b></Nav.Link>}
+          {!isEducation && !isLiterature && <Nav.Link href="/education"><b>Education</b></Nav.Link>}
+          {!isLiterature && !isEducation && <Nav.Link href="/literature"><b>Literature</b></Nav.Link>}
+          {isHome && <Nav.Link href="https://github.com/MSchiavi"><b>Github</b></Nav.Link>}
         </Nav>
       </Navbar>
     </Container>

@@ -9,7 +9,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 function App() {
   return (
     <Router>
-    <div className = "App">
+    <div className = "App" style={{backgroundColor:'#d4d4d4'}}>
       <Switch>
       <Route path ="/" exact component={Home}/>
       <Route path ="/literature" component={Literature} />
@@ -17,6 +17,7 @@ function App() {
       </Switch>
       <Menu />
     </div>
+    <div style={{backgroundColor:"#d4d4d4",minHeight:'100vh'}}></div>
     </Router>
   );
 }
