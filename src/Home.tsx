@@ -15,7 +15,7 @@ function Home() {
         My educational background is in Scientific Computing but I have since branched out to more traditional web development. I enjoy working on large projects that tend to be more complex and hold my interest. A challenging problem is a problem worth working on. 
     </p>
     <p className="homeP">
-        You can find my Resume <a href="https://github.com/MSchiavi/resume/raw/master/Matthew_Schiavi_Resume.pdf">here</a>.
+        You can find my Resume <a href="https://github.com/MSchiavi/resume/raw/master/matthew_schiavi_resume.pdf">here</a>.
     </p>
   </div>
   
