@@ -5,7 +5,7 @@ function Home() {
     
   return (
     <div>
-    <h1>
+    <h1 style={{ color:'white' }}>
       Matthew Schiavi
     </h1>
     <p className="homeP" id="info">

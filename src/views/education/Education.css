@@ -3,10 +3,14 @@
     margin-left:25%;
     margin-top:5%;
     max-width:800px;
-    color: rgb(88, 84, 84);
+    color: rgb(189, 200, 216);
 }
 .educationUL{
     text-align:left;
     margin-left:27%;
-    color: rgb(88, 84, 84);
+    color: rgb(189, 200, 216);
+}
+
+a:visited{
+    color:rgb(235, 245, 238)
 }

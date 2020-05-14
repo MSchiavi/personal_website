@@ -4,7 +4,7 @@ import './Literature.css';
 function Literature() {
   return (
     <div>
-        <h1>Literature</h1>
+        <h1 style={{ color:'white' }}>Literature</h1>
         <p style={{marginTop:'5%',fontSize:'20px'}}className='literatureP'>
           Here are some things I have either written or have been apart of.  
         </p>
