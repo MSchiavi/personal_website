@@ -1,5 +1,4 @@
 import React from 'react';
-import Menu from './Menu';
 import Literature from './views/literature/Literature';
 import Home from './views/home/Home';
 import Education from './views/education/Education'
@@ -10,7 +9,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 function App() {
   return (
     <Router>
-    <div className = "App" style={{backgroundColor:'#d4d4d4'}}>
+    <div className = "App" style={{backgroundColor:'rgb(64,78,124)',height:'100vh'}}>
       <NavMenu />
       <Switch>
       <Route path ="/" exact component={Home}/>
