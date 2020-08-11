@@ -8,8 +8,11 @@ function Home() {
     <h1 style={{ color:'white' }}>
       Matthew Schiavi
     </h1>
-    <p className="homeP" id="info">
+    {/* <p className="homeP" id="info">
       Hi my name is Matt. I am currently a Full Stack Engineer working on <a href="http://www.gritseed.com/">GritSeed</a> which is an engagement platform to recruit and retain.
+    </p> */}
+    <p className="homeP" id="info">
+      Hi my name is Matt. I am currently an Android Developer working with <a href="https://www.ravebizz.com/">RaveBizz</a>.
     </p>
     <p className="homeP">
         My educational background is in Scientific Computing but I have since branched out to more traditional web development. I enjoy working on large projects that tend to be more complex and hold my interest. A challenging problem is a problem worth working on. 
