@@ -9,6 +9,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 function App() {
   //test
   return (
+    //hi
     <Router>
       <div className="App" style={{ backgroundColor: "rgb(64,78,124)", height: "100vh" }}>
         <NavMenu />
